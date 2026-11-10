@@ -12,9 +12,12 @@ un navigateur avec three.js.
 - `equipe/<nom>/` : textures de personnages fictifs (tête, tenue, mèches), en WebP 1024 et 512, dérivées des
   textures de la bibliothèque. Les visages viennent de portraits générés par ordinateur : ce ne sont pas des
   personnes réelles.
-- `decor/textures/` : parquet, bois, terrasse, herbe et bitume, en WebP 1024 et 512, étalonnés depuis des textures
-  de [Poly Haven](https://polyhaven.com).
-- `decor/modeles/` : plantes en pot et bac en bois (GLB allégés et leurs textures), depuis des modèles de Poly Haven.
+- `figurants/<avatar>/` : textures d'origine de quatre avatars de la bibliothèque (passants à vélo, à moto et en
+  scooter), en WebP 512.
+- `decor/textures/` : parquet, bois, terrasse, herbe, bitume, écorce et touffe de feuilles (avec transparence), en
+  WebP, étalonnés ou composés depuis des textures de [Poly Haven](https://polyhaven.com).
+- `decor/modeles/` : plantes en pot, bac en bois, fauteuil de salon, table basse et suspension industrielle (GLB
+  allégés et leurs textures), depuis des modèles de Poly Haven.
 
 ## Licences
 
