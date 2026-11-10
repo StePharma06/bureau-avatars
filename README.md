@@ -1,6 +1,7 @@
 # bureau-avatars
 
-Ressources 3D d'un tableau de bord privé : des personnages en volume, animés, affichés dans un navigateur avec three.js.
+Ressources 3D d'un tableau de bord privé : des personnages en volume, animés, et un décor de bureaux, affichés dans
+un navigateur avec three.js.
 
 ## Contenu
 
@@ -11,9 +12,14 @@ Ressources 3D d'un tableau de bord privé : des personnages en volume, animés, 
 - `equipe/<nom>/` : textures de personnages fictifs (tête, tenue, mèches), en WebP 1024 et 512, dérivées des
   textures de la bibliothèque. Les visages viennent de portraits générés par ordinateur : ce ne sont pas des
   personnes réelles.
+- `decor/textures/` : parquet, bois, terrasse, herbe et bitume, en WebP 1024 et 512, étalonnés depuis des textures
+  de [Poly Haven](https://polyhaven.com).
+- `decor/modeles/` : plantes en pot et bac en bois (GLB allégés et leurs textures), depuis des modèles de Poly Haven.
 
-## Licence
+## Licences
 
-Les avatars, les animations et les textures d'origine sont l'oeuvre de Microsoft, publiés sous licence MIT
-(voir `LICENSE.md`, « Copyright (c) 2020 Microsoft »). Les fichiers de ce dépôt en sont des versions converties ou
-retouchées, redistribuées sous la même licence.
+- Avatars, animations et textures de personnages : oeuvre de Microsoft, licence MIT (voir `LICENSE.md`,
+  « Copyright (c) 2020 Microsoft »). Les fichiers de ce dépôt en sont des versions converties ou retouchées,
+  redistribuées sous la même licence.
+- Textures et modèles du décor : Poly Haven, domaine public (CC0). Versions converties et allégées, elles aussi
+  placées dans le domaine public (CC0).
